@@ -1,0 +1,122 @@
+* {
+    margin : 0 ;
+    font-family: 'Poppins' , sans-serif;
+    border: border-box;
+}
+body {
+    background-color: black;
+    color : #fff;
+}
+.header {
+    height : 89vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("netflix.jpg");
+    background-size: cover;
+    background-position: center;
+    padding : 1px 8%;
+    position: relative;
+}
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    width: 150px;
+    cursor :pointer;
+    margin-left: 100px;
+}
+nav button {
+    border : 0;
+    outline: 0;
+    background: #db0001;    
+    color:#fff;
+    padding : 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    height : 40px;
+    margin-right : 150px;
+}
+nav select {
+    border: 1px solid white;
+    outline: 0;
+    background: transparent;
+    color: white;
+    height: 32px;
+    width: 126px;
+    padding :6px 23px;
+    font-size: 1rem;
+    text-align: center;
+
+}
+.section {
+    position: absolute;
+    top : 50%;
+    left : 25%;
+   align-items: center;
+   display: block;
+}
+.section h1 {
+    font-size : 42px;
+}
+.section p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.email input {
+    margin-left : 100px;
+    width:370px;
+    height : 60px;
+    background: transparent;
+    border : 0.5px solid white;
+    font-size: 1rem;
+    padding : 0;
+}
+.email button {
+    margin : 0px 0px 0px 8px;
+    outline : 0;
+    width : 210px;
+    height :60px;
+    background-color: #e50914;
+    color:#ffffff;
+    padding :12px 24px;
+    font-size: 24px;
+    border : 0px;
+    border-radius: 0.25rem;
+}
+.main{
+    border-top: 7px solid rgb(58, 58, 58) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.m1 h2 {
+    font-size: 42px;
+    font-weight: 1000;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.m1 p {
+    font-size: 18px;
+    color : #ffffff;
+    text-align: center;
+}
+.image {
+    width :630px;
+    height : 480px;
+}
+.footer {
+    width :710px;
+    height : 385px;
+}
+.footer1 {
+    color : #ffffffb3;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
